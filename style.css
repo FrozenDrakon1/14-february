@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("img/fon.png");
+
+}
+.window {
+    background: url("img/WINdow.png") no-repeat;
+    height: 624px;
+    width: 944px;
+    margin: 70px auto 0;
+    box-shadow: 0px 60px 120px 0px rgba(12,12,12,0.75);
+}
+.window h1{
+    font-size: 120px;
+    color: #000000;
+    text-align: center;
+    padding-top: 70px;
+}
+.love{
+    color: #a2689e;
+}
+.text{
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+}
+.know{
+    font-size: 21px;
+    color: #000;
+    padding:20px 0 0 30px;
+}
+.know-border{
+    background: url("img/patten.png") no-repeat;
+    width: 844px;
+    height: 160px;
+    margin: 60px 50px ;
+    padding: 40px 0 0 45px;
+
+}
+.email{
+    padding:10px 0 ;
+    width: 500px;
+    text-indent: 10px;
+    margin: 2px 0 0 30px;
+    border-top: 3px solid #b3b3b3;
+    border-bottom: 2px solid #b3b3b3;
+    border-right: 2px solid #b3b3b3;
+}
+.know-button{
+    background: #5ccfff;
+    height: 40px;
+    width: 240px;
+    outline: none;
+    box-shadow: 0px 2px 3px 0px rgba(119,137,176,1);
+    background: linear-gradient(to bottom, rgba(0,162,255,1) 0%,rgba(0,76,146,1) 100%);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+}
+.know-buttonblue:hover {
+    background: #5ccfff;
+    height: 40px;
+    width: 240px;
+    outline: none;
+    box-shadow: 0px 2px 3px 0px rgba(119, 137, 176, 1);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(242, 242, 242, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(24, 64, 107, 1) 100%);
+}
+.daw{
+    background: url("img/yes.png") no-repeat;
+    width: 100%;
+    height: 26px;
+    padding: 5px 0 0 45px ;
+    font-size: 21px;
+}
+.Know-email{
+    color: dodgerblue;
+    text-decoration: none;
+    border-bottom: 1px dashed dodgerblue;
+}
