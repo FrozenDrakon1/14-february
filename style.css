@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Klementina;
+    src: url(font/klementina/klementina-webfont.eot);
+    src: url(font/klementina/klementina-webfont.eot?#iefix) format('embedded-opentype'),
+    url(font/klementina/klementina-webfont.woff) format('woff'),
+    url(font/klementina/klementina-webfont.ttf) format('truetype');
+}
 body{
     background: url("img/fon.png");
 
@@ -18,7 +25,11 @@ body{
     font-size: 120px;
     color: #000000;
     text-align: center;
-    padding-top: 70px;
+    font-family: Klementina;
+    line-height: 48px;
+    padding: 90px;
+    margin: 0 0 -55px;
+    font-weight:normal;
 }
 .love{
     color: #a2689e;
@@ -28,41 +39,47 @@ body{
     color: #000;
     text-align: center;
     width: 100%;
+    padding: 0 70px;
+    line-height: 56px;
+    margin-bottom: 60px;
 }
 .know{
     font-size: 21px;
     color: #000;
     padding:20px 0 0 30px;
+    font-weight: bold;
+    margin: -30px 0 0 -30px;
+    font-family: Arial;
 }
 .know-border{
     background: url("img/patten.png") no-repeat;
     width: 844px;
     height: 160px;
-    margin: 60px 50px ;
-    padding: 40px 0 0 45px;
-
+    margin: -10px 50px;
+    padding: 40px  45px;
 }
 .email{
     padding:10px 0 ;
+    font-size: 17px;
     width: 500px;
     text-indent: 10px;
-    margin: 2px 0 0 30px;
-    border-top: 3px solid #b3b3b3;
-    border-bottom: 2px solid #b3b3b3;
-    border-right: 2px solid #b3b3b3;
+    margin: 7px  0 0 0px;
+    border: 1px solid #b3b3b3;
 }
 .know-button{
     background: #5ccfff;
-    height: 40px;
+    height: 45px;
     width: 240px;
     outline: none;
+    border: none;
     box-shadow: 0px 2px 3px 0px rgba(119,137,176,1);
     background: linear-gradient(to bottom, rgba(0,162,255,1) 0%,rgba(0,76,146,1) 100%);
     border-radius: 10px;
     color: #fff;
     font-size: 24px;
+    margin-left: 6px;
 }
-.know-buttonblue:hover {
+.know-button-blue:hover {
     background: #5ccfff;
     height: 40px;
     width: 240px;
