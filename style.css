@@ -10,18 +10,33 @@
     url(font/klementina/klementina-webfont.woff) format('woff'),
     url(font/klementina/klementina-webfont.ttf) format('truetype');
 }
-body{
-    background: url("img/fon.png");
-
+body {
+    background-image: url("img/fon.png");
 }
-.window {
+label{
+    font-size: 21px;
+    color: #000;
+    padding:20px 0 0 30px;
+    font-weight: bold;
+    margin: -30px 0 0 -30px;
+    font-family: Arial;
+}
+input[type="email"]{
+    padding:10px 0 ;
+    font-size: 17px;
+    width: 500px;
+    text-indent: 10px;
+    margin: 7px  0 0 0px;
+    border: 1px solid #b3b3b3;
+}
+.c-subscription-form {
     background: url("img/WINdow.png") no-repeat;
     height: 624px;
     width: 944px;
     margin: 70px auto 0;
     box-shadow: 0px 60px 120px 0px rgba(12,12,12,0.75);
 }
-.window h1{
+.c-subscription-form h1{
     font-size: 120px;
     color: #000000;
     text-align: center;
@@ -31,10 +46,10 @@ body{
     margin: 0 0 -55px;
     font-weight:normal;
 }
-.love{
+.p-selected-text{
     color: #a2689e;
 }
-.text{
+.p-text{
     font-size: 48px;
     color: #000;
     text-align: center;
@@ -43,30 +58,14 @@ body{
     line-height: 56px;
     margin-bottom: 60px;
 }
-.know{
-    font-size: 21px;
-    color: #000;
-    padding:20px 0 0 30px;
-    font-weight: bold;
-    margin: -30px 0 0 -30px;
-    font-family: Arial;
-}
-.know-border{
+.p-form-row{
     background: url("img/patten.png") no-repeat;
     width: 844px;
     height: 160px;
     margin: -10px 50px;
     padding: 40px  45px;
 }
-.email{
-    padding:10px 0 ;
-    font-size: 17px;
-    width: 500px;
-    text-indent: 10px;
-    margin: 7px  0 0 0px;
-    border: 1px solid #b3b3b3;
-}
-.know-button{
+.p-know-button{
     background: #5ccfff;
     height: 45px;
     width: 240px;
@@ -79,7 +78,7 @@ body{
     font-size: 24px;
     margin-left: 6px;
 }
-.know-button-blue:hover {
+.m-blue:hover {
     background: #5ccfff;
     height: 40px;
     width: 240px;
@@ -88,14 +87,14 @@ body{
     border-radius: 10px;
     background: linear-gradient(to bottom, rgba(242, 242, 242, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(24, 64, 107, 1) 100%);
 }
-.daw{
+.p-daw{
     background: url("img/yes.png") no-repeat;
     width: 100%;
     height: 26px;
     padding: 5px 0 0 45px ;
     font-size: 21px;
 }
-.Know-email{
+.p-know-email{
     color: dodgerblue;
     text-decoration: none;
     border-bottom: 1px dashed dodgerblue;
